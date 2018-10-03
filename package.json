@@ -54,7 +54,7 @@
   "scripts": {
     "server-start": "nodemon --exec babel-node serverCluster.js",
     "client-start": "react-scripts start",
-    "start": "concurrently \"npm run server-start\" \"npm run client-start\"",
+    "start": "npm run server-start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
