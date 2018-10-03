@@ -40,12 +40,12 @@
     "temporary": "0.0.8",
     "textract": "^2.4.0",
     "wait-on": "^3.0.1",
-    "word-extractor": "^0.1.4"
-  },
-  "devDependencies": {
+    "word-extractor": "^0.1.4",
     "babel-cli": "^6.26.0",
     "babel-preset-env": "^1.6.1",
     "nodemon": "^1.17.3"
+  },
+  "devDependencies": {    
   },
   "engines": {
     "node": "8.11.1"
