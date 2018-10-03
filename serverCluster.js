@@ -1,6 +1,6 @@
-import { startServer } from './server'
+//import { startServer } from './server'
 //startServer()
-
+const startServer = require( './server');
 const cluster = require('cluster');
 const numCPUs = require('os').cpus().length;
 
@@ -20,6 +20,6 @@ if (cluster.isMaster) {
   // Workers can share any TCP connection
   // In this case it is an HTTP server
 
-    startServer(process.pid)
+    startServer.startServer(process.pid)
     console.log(`Worker ${process.pid} started`);
 }
